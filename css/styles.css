@@ -1,0 +1,95 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  }
+body {
+  font-size: 16px;
+  color: #fff;
+  background: linear-gradient(to bottom,#a86fbf,#998ac2,#eaf09c);
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #fff;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Pridi', serif;
+  color: #141a29;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: black;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #eaf09c;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid black;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+/* END HEADER */
+#collapsable-nav a{
+  font-size: 1.2em;
+}
+#collapsable-nav a span{
+  font-size: 1em;
+}
+
+hr{
+  width: 70%;
+  border-width: 1px;
+  margin: auto;
+}
+section{
+  margin: 30px;
+}
+h2,h3{
+  font-family: 'Alegreya Sans SC', sans-serif;
+  color: black;
+}
+.chicken{
+  color: #fff;
+}
+.beef{
+  color: #e3e8b7;
+}
+.Sushi{
+  color: #705778;
+}
+
+@media (min-width: 768px){
+  .navbar-brand {
+    margin-bottom: 12px;
+  }
+}
